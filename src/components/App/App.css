@@ -1,0 +1,26 @@
+.todo {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.todo__list {
+    list-style-type: none;
+    margin: 20px auto 0;
+    padding: 0;
+}
+.todo__item {
+    background: #c7c7c7;
+    margin: 5px auto;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.todo__item--done {
+    text-decoration: line-through;
+}
+
+.todo__btn {
+    margin-left: auto;
+}
